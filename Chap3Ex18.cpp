@@ -23,7 +23,6 @@ int main()
 	finalBalance = principal * pow((1 + rate / time),time);
 	interest = finalBalance - principal;
 
-	// Display results
 	cout << "Interest rate: " << rate * 100 << "%" << endl;
 	cout << "Times interest compounded: " << time << endl;
 	cout << "Principal amount: $" << principal << endl;
